@@ -17,6 +17,7 @@ const HomeSlide = () => {
         slidesPerView={1}
         style={{
           borderRadius: "10px",
+          zIndex: 0
         }}
       >
         {data?.map((item, i) => (
